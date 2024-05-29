@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="container">
+    <h1>Tic-Tac-Toe</h1>
+    <div class="gameinfo">
+        <p id="gamemessage">Choose a game mode to start.</p>
+        <p id="turnmessage">Turn: Player X</p>
+    </div>
+    <div class="tttbuts">
+        <button onclick="game(1)">1 Player</button>
+        <button onclick="game(2)">2 Player</button>
+    </div>
+    <div class="tttboard" id="tttboard">
+        <div data-index="1" class="spaces right-border bottom-border"></div>
+        <div data-index="2" class="spaces right-border bottom-border"></div>
+        <div data-index="3" class="spaces bottom-border"></div>
+        <div data-index="4" class="spaces right-border bottom-border"></div>
+        <div data-index="5" class="spaces right-border bottom-border"></div>
+        <div data-index="6" class="spaces bottom-border"></div>
+        <div data-index="7" class="spaces right-border"></div>
+        <div data-index="8" class="spaces right-border"></div>
+        <div data-index="9" class="spaces"></div>
+    </div>
+    <div id="gamedone" class="hide">
+        <h2 id="gamedonetext">Player X wins!</h2>
+        <button class="restart" onclick="restart()">Restart</button>
+    </div>
+</div>
+
+</body>
+</html>

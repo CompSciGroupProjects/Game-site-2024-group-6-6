@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+.tttboard {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+
+.spaces {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.right-border {
+    border-right: 0.2em solid black;
+}
+
+.bottom-border {
+    border-bottom: 0.2em solid black;
+}
+
+button {
+    background-color: transparent;
+    color: currentColor;
+    padding: 10px;
+    font-size: 1em;
+    border: currentColor 1px solid;
+}
+
+#gamedone {
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+.see {
+    display: block;
+}
+
+.xhover:hover::after {
+    content: "X";
+    opacity: 0.5;
+}
+
+.ohover:hover::after {
+    content: "O";
+    opacity: 0.5;
+}
