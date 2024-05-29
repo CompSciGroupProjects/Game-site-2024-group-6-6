@@ -1,0 +1,82 @@
+.gridcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background: black;
+    font-size: 20px;
+    border: solid black;
+    align-content: center;
+    width: 40%;
+    margin-top: 50px;
+    grid-column-gap: 40px;
+}
+
+#turnteller {
+    margin-top: 30px;
+    color: red;
+    background: black;
+    width: 20%;
+    border: 3px solid red;
+    margin-left: 750px;
+    text-align: center;
+}
+
+
+.itemr1 {
+    height: 70px;
+    grid-column: auto;
+    grid-row: 1 / 2;
+    border: solid black;
+    border-radius: 50%;
+    background: white;
+}
+
+.itemr2 {
+    height: 70px;
+    grid-column: auto;
+    grid-row: 2 / 3;
+    border: solid black;
+    border-radius: 50%;
+    background: white;
+}
+
+.itemr3 {
+    height: 70px;
+    grid-column: auto;
+    grid-row: 3 / 4;
+    border: solid black;
+    border-radius: 50%;
+    background: white;
+}
+
+.itemr4 {
+    height: 70px;
+    grid-column: auto;
+    grid-row: 4 / 5;
+    border: solid black;
+    border-radius: 50%;
+    background: white;
+}
+
+.itemr5 {
+    height: 70px;
+    grid-column: auto;
+    grid-row: 5 / 6;
+    border: solid black;
+    border-radius: 50%;
+    background: white;
+}
+
+.itemr6 {
+    height: 70px;
+    grid-column: auto;
+    grid-row: 6 / 7;
+    border: solid black;
+    border-radius: 50%;
+    background: white;
+}
+
+#reset {
+    margin-top: 50px;
+    padding: 10px;
+
+}
