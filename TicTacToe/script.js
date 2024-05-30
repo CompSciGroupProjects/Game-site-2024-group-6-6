@@ -57,10 +57,12 @@ function spaceclick(event) {
 
     if (turn === playerX) {
         space.innerText = playerX;
+        space.classList.add("X");
         boardstate[spaceIndex - 1] = playerX;
         turn = playerO;
     } else {
         space.innerText = playerO;
+        space.classList.add("O");
         boardstate[spaceIndex - 1] = playerO;
         turn = playerX;
     }
@@ -159,7 +161,10 @@ function gameover(winnerText) {
 function restart() {
     gamedone.className = "hide";
     boardstate.fill(null);
-    spaces.forEach((space) => (space.innerText = ""));
+    spaces.forEach((space) => {
+        space.innerText = "";
+        space.classList.remove("X", "O");
+    });
     turn = playerX;
     hover();
     updateTurnMessage();

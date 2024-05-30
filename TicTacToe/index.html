@@ -10,16 +10,17 @@
 <body>
 
 <div class="container">
-    <h1>Tic-Tac-Toe</h1>
-    <div class="gameinfo">
+    <h1 id="ttttitle">Tic-Tac-Toe</h1>
+    <div class="gameinfo" id="tttinfo">
         <p id="gamemessage">Choose a game mode to start.</p>
         <p id="turnmessage">Turn: Player X</p>
     </div>
-    <div class="tttbuts">
+    <div class="tttbuts" id="tttbuts">
         <button onclick="game(1)">1 Player</button>
         <button onclick="game(2)">2 Player</button>
     </div>
     <div class="tttboard" id="tttboard">
+
         <div data-index="1" class="spaces right-border bottom-border"></div>
         <div data-index="2" class="spaces right-border bottom-border"></div>
         <div data-index="3" class="spaces bottom-border"></div>
