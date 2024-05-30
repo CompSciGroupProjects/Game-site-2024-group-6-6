@@ -1,0 +1,58 @@
+#navbar {
+    background: #3D3B8E;
+}
+
+.navbaritem {
+    color: white;
+}
+
+body {
+    background: #e8ecf4;
+}
+
+#og {
+    background: #3D3B8E;
+    color: white;
+    margin-top: 100px;
+    width: 20%;
+    font-size:70px;
+    border-radius: 20px;
+    border: 3px solid #3D3B8E;
+}
+
+.gametitle {
+    color: white;
+    background: #6883BA;
+    width: 60%;
+    font-size: 60px;
+    border-radius: 20px;
+    border: 3px solid #3D3B8E;
+}
+
+.playercount {
+    color: black;
+    background: #E072A4;
+    width: 45%;
+    font-size: 45px;
+    border-radius: 20px;
+    border: 3px solid #3D3B8E;
+}
+
+.description {
+    color: black;
+    background: #B0E298;
+    width: 70%;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 3px solid #3D3B8E;
+}
+
+.playbutton {
+    color: white;
+    background: #6883BA;
+    width: 30%;
+    font-size: 40px;
+    border-radius: 20px;
+    border: 3px solid #3D3B8E;
+    margin-top: 50px;
+}
