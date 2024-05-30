@@ -1,9 +1,12 @@
+body {
+    background: #e8ecf4;
+}
 .gridcontainer {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    background: black;
+    background: #3D3B8E;
     font-size: 20px;
-    border: solid black;
+    border: solid #3D3B8E;
     align-content: center;
     width: 40%;
     margin-top: 50px;
@@ -12,10 +15,10 @@
 
 #turnteller {
     margin-top: 30px;
-    color: red;
+    color: #E072A4;
     background: black;
     width: 20%;
-    border: 3px solid red;
+    border: 3px solid #E072A4;
     margin-left: 750px;
     text-align: center;
 }

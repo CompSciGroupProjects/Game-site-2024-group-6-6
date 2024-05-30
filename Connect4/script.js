@@ -8,7 +8,7 @@ let rows = [row0, row1, row2, row3, row4, row5]
 let winner = false;
 function turn (id) {
     if (winner === false) {
-        if (document.getElementById("turnteller").style.border === "3px solid yellow" || document.getElementById(id).style.backgroundColor === "white") {
+        if (document.getElementById("turnteller").style.border === "3px solid #B0E298" || document.getElementById(id).style.backgroundColor === "white") {
             let box;
             let row;
             for (let x = 0; x < rows.length; x++) {
@@ -17,19 +17,19 @@ function turn (id) {
                     row = x;
                 }
             }
-            document.getElementById(box).style.backgroundColor = "yellow";
+            document.getElementById(box).style.backgroundColor = "#B0E298";
             rows[row][id.substring(1, 2)] = "yellow";
             if (checkFor4())
-                document.getElementById("turnteller").innerHTML = "Yellow Wins!"
+                document.getElementById("turnteller").innerHTML = "Green Wins!"
             else if (checkForTie()) {
                 document.getElementById("turnteller").style.border = "3px solid white"
                 document.getElementById("turnteller").style.color = "white"
                 document.getElementById("turnteller").innerHTML = "Tie!"
             }
             else {
-                document.getElementById("turnteller").style.border = "3px solid red"
-                document.getElementById("turnteller").style.color = "red"
-                document.getElementById("turnteller").innerHTML = "Red's Turn"
+                document.getElementById("turnteller").style.border = "3px solid #E072A4"
+                document.getElementById("turnteller").style.color = "#E072A4"
+                document.getElementById("turnteller").innerHTML = "Pink's Turn"
             }
         } else {
             let box;
@@ -40,19 +40,19 @@ function turn (id) {
                     row = x;
                 }
             }
-            document.getElementById(box).style.backgroundColor = "red";
+            document.getElementById(box).style.backgroundColor = "#E072A4";
             rows[row][id.substring(1, 2)] = "red";
             if (checkFor4())
-                document.getElementById("turnteller").innerHTML = "Red Wins!"
+                document.getElementById("turnteller").innerHTML = "Pink Wins!"
             else if (checkForTie()) {
                 document.getElementById("turnteller").style.border = "3px solid white"
                 document.getElementById("turnteller").style.color = "white"
                 document.getElementById("turnteller").innerHTML = "Tie!"
             }
             else {
-                document.getElementById("turnteller").style.border = "3px solid yellow"
-                document.getElementById("turnteller").style.color = "yellow"
-                document.getElementById("turnteller").innerHTML = "Yellow's Turn"
+                document.getElementById("turnteller").style.border = "3px solid #B0E298"
+                document.getElementById("turnteller").style.color = "#B0E298"
+                document.getElementById("turnteller").innerHTML = "Green's Turn"
             }
         }
     }
