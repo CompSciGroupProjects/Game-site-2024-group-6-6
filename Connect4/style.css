@@ -81,5 +81,6 @@ body {
 #reset {
     margin-top: 50px;
     padding: 10px;
-
+    background: #6883BA;
+    border: #6883BA;
 }
