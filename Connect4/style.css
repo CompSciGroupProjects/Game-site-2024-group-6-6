@@ -4,7 +4,7 @@ body {
 .gridcontainer {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    background: #3D3B8E;
+    background: #6883BA;
     font-size: 20px;
     border: solid #3D3B8E;
     align-content: center;
@@ -81,6 +81,6 @@ body {
 #reset {
     margin-top: 50px;
     padding: 10px;
-    background: #6883BA;
-    border: #6883BA;
+    background: #3D3B8E;
+    border: #3D3B8E;
 }
