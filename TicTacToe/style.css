@@ -6,6 +6,16 @@ body {
 
 }
 
+#c4 {
+    background: #3D3B8E;
+    color: white;
+    margin-top: 100px;
+    width: 20%;
+    font-size:70px;
+    border-radius: 20px;
+    border: 3px solid #3D3B8E;
+}
+
 .container {
     text-align: center;
 }
