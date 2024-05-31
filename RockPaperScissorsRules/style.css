@@ -1,4 +1,10 @@
+#navbar {
+    background: #3D3B8E;
+}
 
+.navbaritem {
+    color: white;
+}
 .card {
     background-color: #E072A4;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -13,6 +19,15 @@
 
 .container {
     padding: 2px 16px;
-    font-family: "Comic Sans MS";
+    color: #3D3B8E;
+}
+
+.bottom{
+        text-align: center;
+    }
+
+.top{
+    text-align: center;
+    background-color: #B0E298;
     color: #3D3B8E;
 }
