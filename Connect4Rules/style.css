@@ -7,3 +7,42 @@
     border-radius: 20px;
     border: 3px solid #3D3B8E;
 }
+
+.description {
+    color: black;
+    background: #B0E298;
+    width: 70%;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 3px solid #3D3B8E;
+    margin-top: 20px;
+}
+
+.playercount {
+    color: black;
+    background: #E072A4;
+    width: 25%;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 3px solid #3D3B8E;
+}
+
+.playbutton {
+    color: white;
+    background: #6883BA;
+    width: 20%;
+    font-size: 40px;
+    border-radius: 20px;
+    border: 3px solid #3D3B8E;
+    margin-top: 50px;
+}
+
+body {
+    background: #e8ecf4;
+}
+
+#connect4 {
+    margin-left: 665px;
+    width: 30%;
+    height: auto;
+}
