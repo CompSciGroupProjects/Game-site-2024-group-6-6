@@ -7,3 +7,7 @@ function rps () {
 function ttt () {
     window.location.href = "TicTacToeRules";
 }
+
+function connectgame () {
+    window.location.href = "Connect4";
+}
