@@ -9,5 +9,9 @@ function ttt () {
 }
 
 function connectgame () {
-    window.location.href = "Connect4";
+    window.location.href = "../Connect4";
+}
+
+function rps () {
+    window.location.href = "../RockPaperScissors";
 }
