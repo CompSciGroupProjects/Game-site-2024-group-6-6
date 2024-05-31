@@ -1,6 +1,14 @@
 #options{
-    color: blue;
+    color: #B0E298;
     border-radius: 24px;
     margin:auto;
     text-align: center;
+}
+
+.winner{
+    color: #3D3B8E;
+}
+
+.choices{
+    color: #E072A4;
 }
