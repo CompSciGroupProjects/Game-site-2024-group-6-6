@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <title>Title</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="../navbar.css">
-
+    <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href = "../navbar.css">
 </head>
 <body>
-
 <nav id = "navbar" class = "navbar navbar-expand-lg fixed-top">
     <div class = "container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -41,29 +40,16 @@
         </div>
     </div>
 </nav>
-<br>
-<br>
-<br>
-<div class="top">
- <h2>ROCK PAPER SCISSORS RULES AND EXPERIMENT</h2>
+
+<h1 id = "c4" class = "text-center mx-auto">Rock, Paper Scissors</h1>
+<p class = "mx-auto text-center description">A game in which the user makes a choice between rock, paper and scissors. Their selection will then trigger the choice of the computer, and then display the winner and loser based on the selection of both parties.
+
+</p>
+<h4 class = "mx-auto text-center playercount">Rock, Paper, Scissors is a 1 player game; user vs computer</h4>
+<img id = "connect4" src  = "Images/Rock.jpg" alt = "Images/Rock.jpg">
+<div onclick="rps()" class="mx-auto text-center">
+    <h3 class = "mx-auto text-center playbutton" >Play!</h3>
 </div>
-
-
-
-<div class="card mx-auto">
-    <img src="images/Rock.jpg" alt="RPS" style="width:100%">
-    <div class="container">
-        <h4><b>Rock, Paper, Scissors</b></h4>
-        <p><b>A game in which the user makes a choice between rock, paper and scissors. Their selection will then trigger the choice of the computer, and then display the winner and loser based on the selection of both parties. The winning combinations will be: User rock, opposition scissors. user paper, opposition rock. user scissors, opposition paper.</p>
-
-        <div class="bottom">
-            <a href="https://stephengiammarino23.github.io/RockPaperScissors/"><button>GIVE IT A TRY!</button></a>
-        </div>
-    </div>
-</div>
-
+<script src = "../script.js"></script>
 </body>
 </html>
-
-
-
