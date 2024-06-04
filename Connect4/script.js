@@ -30,6 +30,7 @@ function turn (id) {
                 document.getElementById("turnteller").style.border = "3px solid hotpink"
                 document.getElementById("turnteller").style.color = "hotpink"
                 document.getElementById("turnteller").innerHTML = "Pink's Turn"
+                document.getElementById("turnteller").style.background = "#B0E298"
             }
         } else {
             let box;
@@ -53,6 +54,7 @@ function turn (id) {
                 document.getElementById("turnteller").style.border = "3px solid lightgreen"
                 document.getElementById("turnteller").style.color = "lightgreen"
                 document.getElementById("turnteller").innerHTML = "Green's Turn"
+                document.getElementById("turnteller").style.background = "#E072A4"
             }
         }
     }
