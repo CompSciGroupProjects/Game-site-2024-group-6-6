@@ -15,3 +15,7 @@ function connectgame () {
 function rps () {
     window.location.href = "../RockPaperScissors";
 }
+
+function tttgame() {
+    window.location.href = "../TicTacToe"
+}

@@ -11,16 +11,21 @@ body {
     width: 40%;
     margin-top: 50px;
     grid-column-gap: 40px;
+    border-top: 6px solid #B0E298;
+    border-bottom: 6px solid #E072A4;
+    border-left: 6px solid #E072A4;
+    border-right: 6px solid #B0E298;
 }
 
 #turnteller {
-    margin-top: 70px;
+    margin-top: 20px;
     color: #E072A4;
-    background: black;
-    width: 20%;
+    background: #B0E298;
+    width: 15%;
     border: 3px solid #E072A4;
     margin-left: 750px;
     text-align: center;
+    border-radius: 20px;
 }
 
 
@@ -83,4 +88,14 @@ body {
     padding: 10px;
     background: #3D3B8E;
     border: #3D3B8E;
+}
+
+#c4 {
+    background: #3D3B8E;
+    color: white;
+    margin-top: 72px;
+    width: 20%;
+    font-size:70px;
+    border-radius: 20px;
+    border: 3px solid #3D3B8E;
 }
