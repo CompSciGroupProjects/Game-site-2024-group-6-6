@@ -1,14 +1,38 @@
 #options{
+    color: #3D3B8E;
+    border-radius: 24px;
+    margin:auto;
+    text-align: center;
+    background: #B0E298;
+    width: 30%;
+    margin-top: 60px;
+}
+
+.winner{
     color: #B0E298;
     border-radius: 24px;
     margin:auto;
     text-align: center;
-}
-
-.winner{
-    color: #3D3B8E;
+    background: #3D3B8E;
+    width: 30%;
+    margin-top: 50px;
 }
 
 .choices{
-    color: #E072A4;
+    color: #3D3B8E;
+    border-radius: 24px;
+    margin:auto;
+    text-align: center;
+    background: #E072A4;
+    width: 30%;
+    margin-top: 50px;
+}
+
+.Choice{
+    color: #B0E298;
+    border-radius: 24px;
+    margin:auto;
+    text-align: center;
+    background: #3D3B8E;
+    width: 20%;
 }
