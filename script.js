@@ -1,7 +1,7 @@
 function connect4 () {
     window.location.href = "Connect4Rules";
 }
-function rps () {
+function rpsrules () {
     window.location.href = "RockPaperScissorsRules";
 }
 function ttt () {
